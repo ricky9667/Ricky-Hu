@@ -7,10 +7,33 @@
   vertical-align: baseline;
 }
 
-.imagebox {
+.title-container {
   width: 100%;
+
+  position: relative;
+  text-align: center;
+  color: white;
+
+  font-size: 6vw;
 }
 
 .title-image {
   width: 100%;
+  opacity: 90%;
+}
+
+.title-box {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 50%;
+  height: 20%;
+  border: 6px solid white;
+
+  white-space: nowrap;
+  line-height: 190%;
+  font-size: 100%;
+  font-weight: 600;
+  position: absolute;
 }
