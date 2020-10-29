@@ -7,14 +7,20 @@
   vertical-align: baseline;
 }
 
-.title-container {
+.container {
   width: 100%;
-
   position: relative;
   text-align: center;
   color: white;
+}
 
-  font-size: 6vw;
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  height: auto;
+  vertical-align: middle;
+  overflow: hidden;
 }
 
 .title-image {
@@ -33,7 +39,31 @@
 
   white-space: nowrap;
   line-height: 190%;
-  font-size: 100%;
+  font-size: 6vw;
   font-weight: 600;
   position: absolute;
+}
+
+.about-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+
+  width: 80%;
+  height: auto;
+  color: black;
+  padding: 4vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-image {
+  width: 30%;
+}
+
+.about-content {
+  width: 60%;
+  font-size: 1.5vw;
+  text-align: left;
 }
