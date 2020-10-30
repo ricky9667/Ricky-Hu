@@ -12,15 +12,7 @@
   position: relative;
   text-align: center;
   color: white;
-}
-
-.svg-container {
-  display: inline-block;
-  position: relative;
-  width: 20%;
-  height: auto;
-  vertical-align: middle;
-  overflow: hidden;
+  font-family: 'Rubik', 'Noto Sans', sans-serif;
 }
 
 .title-image {
@@ -45,25 +37,35 @@
 }
 
 .about-box {
+  text-align: center;
+  height: auto;
+  padding: 10vw;
+  font-size: 4vw;
+  color: black;
+}
+
+.info-box {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
 
-  width: 80%;
-  height: auto;
-  color: black;
-  padding: 4vw;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 1.5em 0;
 }
 
-.about-image {
-  width: 30%;
+.info-box img {
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
 }
 
-.about-content {
-  width: 60%;
-  font-size: 1.5vw;
-  text-align: left;
+.info-box p {
+  font-size: 2vw;
+  text-align: center;
+  width: 20em;
+  word-break: break-all;
+  word-wrap: break-word;
+  line-height: 1.5em;
+  margin: 1em;
 }
