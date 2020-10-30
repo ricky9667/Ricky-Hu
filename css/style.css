@@ -69,3 +69,23 @@
   line-height: 1.5em;
   margin: 1em;
 }
+
+footer.container {
+  padding: 1vw 0;
+  background-color: #1d3557;
+  width: 100vw;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: auto;
+}
+
+.footer img {
+  width: 40px;
+  height: 40px;
+  margin: 2vw;
+}
